@@ -15,7 +15,7 @@ const Footer = () => {
                 JEFF <span className="text-accent">VEICULAR</span>
               </span>
             </div>
-            <p className="text-white/70 leading-relaxed text-sm">
+            <p className="text-white/85 leading-relaxed text-sm">
               Despachante veicular credenciado no Detran-MG. Especialistas em regularização veicular em BH e região.
             </p>
           </div>

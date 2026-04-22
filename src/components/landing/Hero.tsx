@@ -44,7 +44,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.25 }}
-            className="text-lg lg:text-xl text-white/75 max-w-2xl mb-10 leading-relaxed"
+            className="text-lg lg:text-xl text-white/90 max-w-2xl mb-10 leading-relaxed"
           >
             Despachante veicular credenciado no <span className="text-white font-semibold">Detran-MG</span>. Atendemos BH e região com agilidade, segurança e total transparência — sem burocracia.
           </motion.p>

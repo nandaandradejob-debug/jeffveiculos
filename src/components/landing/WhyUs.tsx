@@ -61,7 +61,7 @@ const WhyUs = () => {
               </div>
               <div>
                 <h3 className="font-heading font-bold text-xl mb-2">{p.title}</h3>
-                <p className="text-white/70 leading-relaxed">{p.desc}</p>
+                <p className="text-white/85 leading-relaxed">{p.desc}</p>
               </div>
             </motion.div>
           ))}
