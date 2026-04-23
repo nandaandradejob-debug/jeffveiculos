@@ -72,12 +72,12 @@ export default {
         },
       },
       backgroundImage: {
-        "gradient-hero": "linear-gradient(135deg, hsl(211 53% 11%) 0%, hsl(211 60% 7%) 100%)",
+        "gradient-hero": "linear-gradient(135deg, hsl(208 74% 18%) 0%, hsl(211 60% 7%) 100%)",
         "gradient-accent": "linear-gradient(135deg, hsl(36 91% 55%), hsl(30 95% 50%))",
       },
       boxShadow: {
-        elegant: "0 20px 50px -20px hsl(211 53% 11% / 0.3)",
-        card: "0 8px 30px -10px hsl(211 53% 11% / 0.15)",
+        elegant: "0 20px 50px -20px hsl(208 74% 18% / 0.3)",
+        card: "0 8px 30px -10px hsl(208 74% 18% / 0.15)",
         glow: "0 0 40px hsl(36 91% 55% / 0.3)",
       },
       borderRadius: {

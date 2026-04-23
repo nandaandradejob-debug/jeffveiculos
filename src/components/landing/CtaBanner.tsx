@@ -23,10 +23,10 @@ const CtaBanner = () => {
             Fale agora com um especialista. Orçamento gratuito e sem compromisso.
           </p>
           <a
-            href="https://wa.me/5531999999999?text=Olá!%20Quero%20resolver%20a%20documentação%20do%20meu%20veículo."
+            href="https://wa.me/5531982927747?text=Olá!%20Quero%20resolver%20a%20documentação%20do%20meu%20veículo."
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-primary hover:bg-primary/90 text-white font-bold text-lg px-10 py-5 rounded-xl shadow-2xl hover:scale-105 transition-all"
+            className="inline-flex items-center gap-3 bg-background hover:bg-background/90 text-foreground font-bold text-lg px-10 py-5 rounded-xl shadow-2xl hover:scale-105 transition-all"
           >
             <MessageCircle className="w-6 h-6" />
             Chamar no WhatsApp

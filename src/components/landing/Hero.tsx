@@ -2,7 +2,7 @@ import { ArrowRight, ShieldCheck, Zap, CheckCircle2, MapPin } from "lucide-react
 import { motion } from "framer-motion";
 
 const badges = [
-  { icon: ShieldCheck, text: "Credenciado Detran-MG" },
+  { icon: ShieldCheck, text: "Segurança e Rapidez" },
   { icon: Zap, text: "Resposta em minutos" },
   { icon: CheckCircle2, text: "+500 clientes atendidos" },
   { icon: MapPin, text: "BH e região" },
@@ -27,14 +27,14 @@ const Hero = () => {
             className="inline-flex items-center gap-2 bg-accent/10 border border-accent/30 text-accent px-4 py-1.5 rounded-full text-sm font-semibold mb-6"
           >
             <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-            Despachante credenciado em Belo Horizonte
+            Despachante Veicular - BH E REGIÃO
           </motion.div>
 
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl text-white leading-[0.95] text-balance mb-6 drop-shadow-lg"
+            className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl text-foreground leading-[0.95] text-balance mb-6 drop-shadow-lg"
           >
             Regularize seu veículo
             <span className="block text-accent">sem sair de casa.</span>
@@ -44,9 +44,9 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.25 }}
-            className="text-lg lg:text-xl text-white max-w-2xl mb-10 leading-relaxed drop-shadow-md"
+            className="text-lg lg:text-xl text-foreground/90 max-w-2xl mb-10 leading-relaxed drop-shadow-md"
           >
-            Despachante veicular credenciado no <span className="text-accent font-semibold">Detran-MG</span>. Atendemos BH e região com agilidade, segurança e total transparência — sem burocracia.
+            Despachante veicular especializado em soluções rápidas e eficientes. Atendemos BH e região com agilidade, segurança e total transparência, eliminando burocracias desnecessárias e focando em um método Estratégico, Consistente, Confiável e com Resultado Previsível.
           </motion.p>
 
           <motion.div
@@ -56,7 +56,7 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4 mb-14"
           >
             <a
-              href="https://wa.me/5531999999999?text=Olá!%20Quero%20um%20orçamento%20gratuito."
+              href="https://wa.me/5531982927747?text=Olá!%20Quero%20um%20orçamento%20gratuito."
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-base px-8 py-4 rounded-xl shadow-glow hover:shadow-2xl hover:scale-105 transition-all"
@@ -66,7 +66,7 @@ const Hero = () => {
             </a>
             <a
               href="#servicos"
-              className="inline-flex items-center justify-center gap-2 border-2 border-white/30 hover:border-accent hover:text-accent text-white font-semibold px-8 py-4 rounded-xl transition-all hover:scale-105"
+              className="inline-flex items-center justify-center gap-2 border-2 border-foreground/30 hover:border-accent hover:text-accent text-foreground font-semibold px-8 py-4 rounded-xl transition-all hover:scale-105"
             >
               Ver nossos serviços
             </a>
@@ -81,12 +81,12 @@ const Hero = () => {
             {badges.map((b) => (
               <div
                 key={b.text}
-                className="flex items-center gap-3 bg-primary/60 backdrop-blur-md border border-white/20 rounded-xl px-4 py-3 hover:border-accent/60 hover:bg-primary/80 transition-colors"
+                className="flex items-center gap-3 bg-background/60 backdrop-blur-md border border-border rounded-xl px-4 py-3 hover:border-accent/60 hover:bg-background/80 transition-colors"
               >
                 <div className="w-9 h-9 rounded-lg bg-accent flex items-center justify-center flex-shrink-0">
                   <b.icon className="w-4.5 h-4.5 text-primary" strokeWidth={2.5} />
                 </div>
-                <span className="text-white text-sm font-semibold leading-tight drop-shadow">{b.text}</span>
+                <span className="text-foreground text-sm font-semibold leading-tight drop-shadow">{b.text}</span>
               </div>
             ))}
           </motion.div>

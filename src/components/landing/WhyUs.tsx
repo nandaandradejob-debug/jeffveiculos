@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 const pillars = [
   {
     icon: Landmark,
-    title: "Credenciada no Detran-MG",
-    desc: "Trabalhamos com respaldo legal e total conformidade.",
+    title: "Segurança e Conformidade em Cada Processo",
+    desc: "Trabalhamos com responsabilidade, transparência e respaldo técnico em todas as etapas.",
   },
   {
     icon: Zap,
@@ -20,13 +20,13 @@ const pillars = [
   {
     icon: MapPinned,
     title: "Especialistas em BH e região",
-    desc: "Conhecemos cada detalhe dos processos do Detran-MG.",
+    desc: "Conhecemos cada detalhe dos processos para melhor atender.",
   },
 ];
 
 const WhyUs = () => {
   return (
-    <section className="py-24 lg:py-32 bg-primary text-white relative overflow-hidden">
+    <section className="py-24 lg:py-32 bg-background text-foreground relative overflow-hidden">
       <div className="absolute top-0 right-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl" aria-hidden />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-cta/10 rounded-full blur-3xl" aria-hidden />
 
@@ -61,7 +61,7 @@ const WhyUs = () => {
               </div>
               <div>
                 <h3 className="font-heading font-bold text-xl mb-2">{p.title}</h3>
-                <p className="text-white/85 leading-relaxed">{p.desc}</p>
+                <p className="text-foreground/85 leading-relaxed">{p.desc}</p>
               </div>
             </motion.div>
           ))}

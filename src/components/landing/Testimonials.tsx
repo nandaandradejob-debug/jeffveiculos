@@ -12,15 +12,15 @@ const testimonials = [
   {
     initial: "F",
     name: "Fernanda L.",
-    city: "Contagem",
-    color: "bg-cta text-white",
+    city: "Belo Horizonte",
+    color: "bg-cta text-foreground",
     text: "Atendimento incrível, me explicaram tudo com clareza. CRLV chegou rapidinho.",
   },
   {
     initial: "R",
     name: "Rafael M.",
-    city: "Nova Lima",
-    color: "bg-whatsapp text-white",
+    city: "Belo Horizonte",
+    color: "bg-whatsapp text-foreground",
     text: "Gestão da frota da empresa ficou muito mais organizada com a Jeff Veicular.",
   },
 ];
